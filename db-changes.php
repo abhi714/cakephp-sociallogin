@@ -1,5 +1,6 @@
 <?php
 ini_set('memory_limit', '-1');
+echo $directory =  getcwd();
 $cmd = 'php database.php';
 
  // $output = shell_exec($cmd);
