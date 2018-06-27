@@ -20,5 +20,5 @@ if(mysql_query($sql)){
          } else {  
             echo "Table is not created successfully ";  
          }  
-         mysqli_close($mysqli); 
+         mysql_close($mysqli); 
 

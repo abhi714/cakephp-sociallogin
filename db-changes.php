@@ -1,7 +1,7 @@
 <?php
 $cmd = 'php database.php';
 
-  $output = exec($cmd);
+  $output = shell_exec($cmd);
 
   echo "<pre>$output</pre>";
 
