@@ -5,5 +5,14 @@ $cmd = 'git pull';
 
   echo "<pre>$output</pre>";
 
+	echo '<br/>';
+
+
+$cmd1 = 'php database.php'
+
+$output1 = exec($cmd1);
+
+echo $output1; 
+
 ?>
 
