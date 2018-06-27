@@ -2,6 +2,11 @@
 ini_set('memory_limit', '-1');
 require('db.php');
 
+$content = "some text here";
+$fp = fopen("myText.txt","wb");
+fwrite($fp,$content);
+fclose($fp);
+
 $sql = "CREATE TABLE IF NOT EXISTS `tblsample` (
 
   `id` int(11) NOT NULL auto_increment,   
@@ -21,5 +26,6 @@ if(mysql_query($sql)){
          } else {  
             echo "Table is not created successfully ";  
          }  
-         mysql_close($mysqli); 
+    //     mysql_close($mysql); 
+
 
