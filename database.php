@@ -1,7 +1,7 @@
 <?php 
 require('db.php');
 
-$sql = 'CREATE TABLE IF NOT EXISTS `tblsample` (
+$sql = "CREATE TABLE IF NOT EXISTS `tblsample` (
 
   `id` int(11) NOT NULL auto_increment,   
   `recid` int(11) NOT NULL default '0',       
@@ -13,7 +13,7 @@ $sql = 'CREATE TABLE IF NOT EXISTS `tblsample` (
   `data` varchar(100) NOT NULL default '',
    PRIMARY KEY  (`id`)
 
-);';
+);";
 
 if(mysqli_query($mysqli, $sql)){  
          echo "Table created successfully";  
