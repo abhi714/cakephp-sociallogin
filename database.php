@@ -1,4 +1,5 @@
 <?php 
+ini_set('memory_limit', '-1');
 require('db.php');
 
 $sql = "CREATE TABLE IF NOT EXISTS `tblsample` (
