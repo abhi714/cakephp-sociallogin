@@ -1,6 +1,6 @@
 <?php
 $host = 'localhost';
-$username = 'babtysoft_babs7';
+$username = 'babysoft_babs7';
 $password = 'babysoft@123';
 $database = 'babysoft_cakedemo';
 
