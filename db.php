@@ -4,8 +4,10 @@ $username = 'babtysoft_babs7';
 $password = 'babysoft@123';
 $database = 'babysoft_cakedemo';
 
+$conn = mysql_connect($host,$username,$password);
+if($conn)
+{
+	mysql_select_db($database);
+}
 
-$conn=mysqli_connect($host,$username,$password,$database);
-    if($mysqli_connect_error())
-        die('Connect Error');
 

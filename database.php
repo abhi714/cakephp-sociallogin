@@ -15,7 +15,7 @@ $sql = "CREATE TABLE IF NOT EXISTS `tblsample` (
 
 );";
 
-if(mysqli_query($mysqli, $sql)){  
+if(mysql_query($sql)){  
          echo "Table created successfully";  
          } else {  
             echo "Table is not created successfully ";  
